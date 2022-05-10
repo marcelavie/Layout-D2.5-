@@ -1,0 +1,64 @@
+/*reset css*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    background-color: #2e2d4c;
+    background-image: url(../background-foods-v4.png);
+    background-attachment: fixed;
+}
+.conteudo{
+    width: 72%;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.cabecalho{
+    text-align: center;
+    color: #ffff;
+    margin: auto;
+    padding: 30px;
+
+}
+.logo img{
+    width: 220px;
+}
+.navigation li {
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.navigation li a:link,
+.navigation li a:visited {
+    color: gray;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    color: #494848;
+    text-decoration: underline;
+}
+.conteudo img{
+    float: left;
+    width: 140px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.fonte-media{
+    font-size: 1.7rem;
+}
+.titulo{
+    font-size: 1.9rem;
+    margin-top: 50px;
+
+}
+.habilidades label {
+    width: 280px;
+    display: inline-block;
+
+}
+.habilidades progress {
+    accent-color: #2e2d4c;
+}
