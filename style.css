@@ -3,10 +3,17 @@
     margin: 0%;
     padding: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    font-family: "Lora", serif;
+}
 .background{
     background-color: #2e2d4c;
     background-image: url(../background-foods-v4.png);
     background-attachment: fixed;
+    padding: 2px;
 }
 .conteudo{
     width: 72%;
@@ -18,12 +25,22 @@
 .cabecalho{
     text-align: center;
     color: #ffff;
-    margin: auto;
+    margin: 100px auto;
     padding: 30px;
 
 }
 .logo img{
-    width: 220px;
+    width: 150px;
+    height: 130px;
+    padding: 3rem;
+
+
+}
+.avatar{
+    float: left;
+    width: 140px;
+    padding: 20px;
+    margin-right: 20px;
 }
 .navigation li {
     display: inline-block;
@@ -46,19 +63,91 @@
     padding: 20px;
     border-radius: 20px;
 }
+.fonte--grande{
+    font-size: 3.2rem;
+}
 .fonte-media{
     font-size: 1.7rem;
+}
+.fonte--pequena{
+    font-size: 1.2rem;
+    color: #2e2d4c;
 }
 .titulo{
     font-size: 1.9rem;
     margin-top: 50px;
 
 }
+.titulo--fonte {
+    font-family:'Courier New', Courier, monospace
+}
+.subtitle--color{
+    color: #a3a3a3
+}
 .habilidades label {
     width: 280px;
-    display: inline-block;
+    display:inline-block;
 
 }
 .habilidades progress {
     accent-color: #2e2d4c;
+}
+.fotos img {
+    border-radius: 8px;
+ width: 450px;
+ height: 240px;
+ filter: grayscale(0.4);
+}
+.fotos img:hover{
+    filter: none;
+
+}
+.btn-inicio{
+    font-size: 3rem;
+    color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.3;
+}
+.btn-inicio:hover{
+    opacity: 1;
+}
+footer{
+    position: relative;
+    padding: 120px;
+    background-color: #1b1a2f;
+    color: #fff;
+    text-align: center;
+}
+footer i{
+    letter-spacing: 15px;
+    margin-top: 10px;
+}
+.logotipo{
+    color: black;
+    position: absolute;
+    right: 50%;
+    z-index: 3;
+    transform: translateX(50%);
+    font-size: 1.8rem;
+    padding-top: 12px; 
+   
+}
+.logomarca.fundo{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50%;
+    transform: translateX(50%) rotate(45deg);
+    margin-top: -70px;
+    
+
 }
